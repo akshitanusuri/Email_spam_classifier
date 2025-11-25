@@ -1,4 +1,4 @@
-# nlp_final_project_10-12
+# nlp_final_project
          EMAIL SPAM CLASSIFIER README
 
 
@@ -70,6 +70,7 @@ Model Improvement:
 	And then created  Voting Classifier that combines predictions from three models i.e SVC, Multinomial Naive Bayes, Extra Trees Classifier using soft voting where probabilities are averaged. After that we trains the combined model on the training data.
 
 	Now we evaluated a Voting Classifier and a Stacking Classifier, then calculated their accuracy and precision on test data and saves the TF-IDF vectorizer and Multinomial Naive Bayes model using pickle for future use.
+
 
 
 
